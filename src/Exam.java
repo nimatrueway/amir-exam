@@ -13,6 +13,7 @@ public class Exam {
         Book book5 = new Book("And Then There Were None", "Agatha Christies", "English", 1939, 102, "fantasy");
         Book book6 = new Book("Drama of the Red Chamber", "Cao Xueqin", "Chinese", 1754, 100, "Family saga");
         Book book7 = new Book("Alice’s Adventures in Wonder land", "Lewis Carroll", "English", 1865, 100, "fantasy");
+        Book book8 = new Book("Quran", "Muhammed", "Arabic", 600, 100, "SciFi");
         bookCollection.addBook(book1);
         bookCollection.addBook(book2);
         bookCollection.addBook(book3);
@@ -20,6 +21,7 @@ public class Exam {
         bookCollection.addBook(book5);
         bookCollection.addBook(book6);
         bookCollection.addBook(book7);
+        bookCollection.addBook(book8);
         return bookCollection;
     }
 

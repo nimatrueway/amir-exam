@@ -11,14 +11,12 @@ public class Exam {
         Book book3 = new Book("Harry Potter and Philosopher’s Stone", "J.K Rowling", "English", 1997, 120, "fantasy");
         Book book4 = new Book("The Hobbit", "J.R.R. Tolkien", "English", 1937, 103, "fantasy");
         Book book5 = new Book("And Then There Were None", "Agatha Christies", "English", 1939, 102, "fantasy");
-        Book book6 = new Book("Drama of the Red Chamber", "Cao Xueqin", "Chinese", 1754, 100, "Family saga");
         Book book7 = new Book("Alice’s Adventures in Wonder land", "Lewis Carroll", "English", 1865, 100, "fantasy");
         bookCollection.addBook(book1);
         bookCollection.addBook(book2);
         bookCollection.addBook(book3);
         bookCollection.addBook(book4);
         bookCollection.addBook(book5);
-        bookCollection.addBook(book6);
         bookCollection.addBook(book7);
         return bookCollection;
     }
